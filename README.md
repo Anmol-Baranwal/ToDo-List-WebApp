@@ -39,5 +39,12 @@ For example, if the current URL is AB.com and you want to add a home list, write
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
+<hr>
+
+## 🖥️ The Interface
+<img src="https://github.com/Anmol-Baranwal/ToDo-List-WebApp/blob/main/screenshots/1_opening_screen.jpg" />
+<img src="https://github.com/Anmol-Baranwal/ToDo-List-WebApp/blob/main/screenshots/2_deleting_the_task.jpg" />
+
+
 
 
