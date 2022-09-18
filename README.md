@@ -1,6 +1,6 @@
 <h1> ToDo List Web App </h1>
 
- This ToDo list web application is made using HTML, CSS, node.js, and ejs template with other packages. Using route parameters, the user can create and navigate as many lists as desired. MongoDB is for databases, and the application is deployed on Heroku.
+This ToDo list web application is made using HTML, CSS, node.js, and ejs template with other packages. Using route parameters, the user can create and navigate as many lists as desired. MongoDB is for databases, and the application is deployed on Heroku.
 
 <hr>
 
@@ -38,6 +38,7 @@ For example, if the current URL is AB.com and you want to add a home list, write
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 
 <hr>
 
