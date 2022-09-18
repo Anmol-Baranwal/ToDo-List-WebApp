@@ -1,0 +1,61 @@
+
+<!-- ------------------------------------------------------------------------------------------------------- 
+                                        Instructions Modal
+-------------------------------------------------------------------------------------------------------  -->
+      
+<div class="modal fade footer-modal" id="instructions" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="instrution-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="instruction-title"> Instructions To Use ToDo List  
+          </h5>
+          <button type="button" class="btn-close shadow-none btn-close-white" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;ADD a Item <br>
+            To add a new item just type where New Item is written and click the "+" symbol and then your item will be added.
+          </div>
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;DELETE a Item <br>
+            To delete an item, click the checkbox beside that particular item and your item will be deleted.
+          </div>
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;DELETE the default item in list <br>
+            Just add a new item, then delete the default item, and then it will no longer be there. 
+          </div>
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;LIMIT <br>
+            There is no limit to how many items you can add, so feel free to use it according to your needs.
+          </div>
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;Adding a different List<br>
+            At the first time, the TODAY list opens, suppose you want to create a different list for school or work, you can do so by adding /home or /school or any particular name you wish to your current URL and your list will be created, now you can perform the same above tasks on that list and you can create as many lists as you need. <br>
+            e.g. If the current URL is AB.com and if you want to add a home list, just type AB.com/home further your home list will be created, and thus you can manage as well as navigate different lists according to your needs.
+          </div>
+          <div class="instruction-content"><i class="fas fa-angle-double-right"></i>&nbsp;Get In Touch <br>
+             LinkedIn Profile <div class="social-link"><a href="https://www.linkedin.com/in/heyAnmolBaranwal/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<script>
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+</script>
+
+</body>
+
+<footer>
+  Made By Anmol Baranwal
+</footer>
+
+<p class="modal-item text-center"> <a href="#" data-bs-toggle="modal" data-bs-target="#instructions"
+  class="modal-link">Instructions <hr> </a> </p>
+
+
+</html>
