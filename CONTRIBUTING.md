@@ -12,7 +12,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Any changes or suggestions to the existing content or repository are welcomed.
 - Make appropriate changes in the other sections if needed.
 
-Add the **particular issue** in the title that pull request resolves.
+Add the **particular issue** in the title that pull request resolves. Refer [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
 
 You don't need to worry as I will request the changes needed in the pull request before merging. 
 
