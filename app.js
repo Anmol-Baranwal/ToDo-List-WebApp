@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
+require('dotenv').config();   // for security purpose
 
 const app = express();
 
@@ -12,7 +13,11 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-anmol:Baranwal%40b2@anmolapp.0t2q3.mongodb.net/todolistDB?retryWrites=true&w=majority", {useNewUrlParser: true});
+// use .env file for storing these values to avoid exposing it
+const usernameMongoDB= process.env.MONGODB_USERNAME
+const passwordMongoDB= process.env.MONGODB_PASSWORD
+
+mongoose.connect("mongodb+srv://"+usernameMongoDB+":"+passwordMongoDB+"@anmolapp.0t2q3.mongodb.net/todolistDB?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 const itemsSchema = {
   name: String
@@ -125,7 +130,7 @@ app.get("/:customListName", function(req,res){
   })
 }); 
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 4000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
