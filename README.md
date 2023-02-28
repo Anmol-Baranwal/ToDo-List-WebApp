@@ -1,8 +1,10 @@
-<h1> ToDo List Web App </h1>
+# <img src="https://user-images.githubusercontent.com/74038190/221857969-f37e1717-1470-4fe4-abb5-88b334cf64ea.png" alt="icon of todo list" width="45" /> ToDo List Web App 
 
-> :information_source: This ToDo list web application is made using HTML, CSS, node.js, and ejs template with other packages. 
+> :information_source: This ToDo list web application is made using node.js, express.js, html, css, and ejs template with other packages. 
 
-Using route parameters, the user can create and navigate as many lists as desired.<br> MongoDB is for databases, and the application is deployed on Heroku.
+- Using route parameters, the user can create and navigate as many lists as desired.
+
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database) is used for databases, and the application is deployed on [Render](https://render.com/).
 
 <hr>
 
@@ -11,7 +13,7 @@ Using route parameters, the user can create and navigate as many lists as desire
 This project is hosted on heroku. Visit the following link to view the web application.
 
 ```
-Link will be available soon
+https://todo-list-k7qu.onrender.com/
 ```
 <hr><br>
 
@@ -56,9 +58,9 @@ Just add a new item and delete the default item, and then it will no longer be t
 When the TODAY list opens for the first time, let's say you want to create a separate list for work or school. You can do so by adding /home or /school or any other name you choose with your current URL. You can then use the above way to implement the features discussed and build as many lists as you want. <br>
 For example, if the current URL is AB.com and you want to add a home list, write AB.com/home instead. It will create your home list, which you can manage and travel through as needed.
 
-<hr><br>
+<hr>
 
-## Frameworks & Languages Used
+## <img src="https://user-images.githubusercontent.com/74038190/221857984-5bf77e81-6f65-4502-a7c8-f29a978efb3f.png" alt="bullseye" width="35" /> Frameworks & Languages Used
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
@@ -66,7 +68,7 @@ For example, if the current URL is AB.com and you want to add a home list, write
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 
-<hr><br>
+<hr>
 
 ## 🖥️ The Interface
 <img src="https://github.com/Anmol-Baranwal/ToDo-List-WebApp/blob/main/screenshots/1_opening_screen.jpg" />
