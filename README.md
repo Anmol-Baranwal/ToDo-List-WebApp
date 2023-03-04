@@ -10,7 +10,7 @@
 
 ## :fire: Deployed Link ##
 
-This project is hosted on heroku. Visit the following link to view the web application.
+This project is hosted on [Render](https://render.com/). Visit the following link to view the web application.
 
 ```
 https://todo-list-k7qu.onrender.com/
@@ -71,9 +71,8 @@ For example, if the current URL is AB.com and you want to add a home list, write
 <hr>
 
 ## 🖥️ The Interface
-<img src="https://github.com/Anmol-Baranwal/ToDo-List-WebApp/blob/main/screenshots/1_opening_screen.jpg" />
-<img src="https://github.com/Anmol-Baranwal/ToDo-List-WebApp/blob/main/screenshots/2_deleting_the_task.jpg" />
 
-
+![1_opening_screen](https://user-images.githubusercontent.com/74038190/222881369-e0c3503a-a18e-4a85-8061-3d0374600802.jpg)
+![2_deleting_the_task](https://user-images.githubusercontent.com/74038190/222881364-36395f9f-0aee-4b2d-bcd9-6154151ecc8d.jpg)
 
 
